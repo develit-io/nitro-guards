@@ -16,8 +16,10 @@ This module supports both **Nitro** and **Nuxt** configurations. You can add it 
 
 ### Nitro (`nitro.config.ts`):
 ```ts
+import nitroGuards from '@develit-io/nitro-guards'
+
 export default defineNitroConfig({
-  modules: ["@develit-io/nitro-guards"],
+  modules: [nitroGuards],
 });
 ```
 
