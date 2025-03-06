@@ -1,8 +1,12 @@
 {
   "name": "@develit-io/nitro-guards",
   "version": "1.0.2",
-  "description": "Nitro Guards",
-  "repository": "@develit-io/nitro-guards",
+  "description": "Nitro Guards Module",
+  "repository": {
+    "type": "git",
+    "url": "@develit-io/nitro-guards"
+  },
+  "homepage": "@develit-io/nitro-guards",
   "license": "MIT",
   "sideEffects": false,
   "type": "module",
